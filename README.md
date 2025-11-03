@@ -24,6 +24,7 @@ Response Generation → AI model formats recommendations & comparisons
 UI Display → Streamlit dynamically displays results, product cards, and comparisons
 
 Setup Instructions
+
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/shopping-chat-agent.git
 cd shopping-chat-agent

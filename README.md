@@ -1,53 +1,99 @@
-Project Overview
+# 📸 Project Screenshots
 
-This project demonstrates an AI-powered shopping chat agent designed to help users discover, compare, and purchase mobile phones through natural-language conversations.
-Built as part of an AI/ML Engineer Assignment, the agent provides intelligent recommendations, feature comparisons, and product explanations — all within a simple web-based chat interface powered by Streamlit.
+The following screenshots demonstrate the key features and workflow of the AI Shopping Chat Agent.
 
+---
 
+## 🏠 Home Page
 
-Goal & Scenario
+![Home](Screenshot 2025-11-03 081038.png)
 
-The AI Shopping Agent assists users in:
-💬 Answering natural language queries (e.g., “Best camera phone under ₹30,000?”).
-🔍 Retrieving relevant mobiles based on user intent (budget, brand, features).
-⚖️ Comparing 2–3 models with specs and trade-offs.
-💡 Explaining recommendations in clear, human-like responses.
-🛡️ Handling adversarial or irrelevant queries safely.
-🌐 Displaying results interactively in a clean Streamlit web UI.
+The landing page provides a clean and interactive Streamlit interface where users can start conversations with the AI shopping assistant.
 
-Architecture Overview
+---
 
-User Query Input → via Streamlit Chat Interface
-Intent Parsing & Context Understanding → AI model interprets brand, budget, or feature needs
-Data Retrieval → Fetch relevant mobiles from a mock JSON dataset
-Response Generation → AI model formats recommendations & comparisons
-UI Display → Streamlit dynamically displays results, product cards, and comparisons
+## 💬 AI Shopping Assistant
 
-Setup Instructions
+![Chat Interface](assets/images/chat.png)
 
-1️⃣ Clone the Repository
-git clone https://github.com/<your-username>/shopping-chat-agent.git
-cd shopping-chat-agent
+Users can ask natural language questions such as:
+- Best phone under ₹30,000
+- Compare Samsung and OnePlus
+- Recommend a gaming phone
 
-2️⃣ Install Dependencies
-pip install -r requirements.txt
+The AI understands the intent and provides personalized recommendations.
 
-3️⃣ Add Environment Variables
-Create a .env file in the root directory:
-GEMINI_API_KEY=your_google_ai_key_here
+---
 
-4️⃣ Run the Application
-streamlit run app.py
+## 📱 Mobile Recommendations
 
-Prompt Design & Safety Strategy
+![Recommendations](assets/images/recommendations.png)
 
-Prompt Design:
-Context-aware system prompt defines the agent as a “mobile shopping assistant”.
-Uses few-shot examples to maintain consistent tone and factual accuracy.
-Prompts encourage concise, informative, and user-friendly answers.
+The assistant displays relevant smartphones based on:
+- Budget
+- Brand preference
+- Camera quality
+- Gaming performance
+- Battery life
+- Display specifications
 
-Safety Handling:
-Rejects off-topic or malicious queries (e.g., political, harmful, or unrelated topics).
-Sanitizes inputs before sending to the model.
-Adds response filters to ensure relevance and clarity
+---
 
+## ⚖️ Product Comparison
+
+![Comparison](assets/images/comparison.png)
+
+Compare multiple smartphones side-by-side with detailed specifications including:
+- Processor
+- RAM & Storage
+- Camera
+- Battery
+- Display
+- Price
+- AI-generated recommendation
+
+---
+
+## 🛡️ Safety & Guardrails
+
+![Safety](assets/images/safety.png)
+
+The chatbot detects and safely handles:
+- Off-topic questions
+- Malicious prompts
+- Prompt injection attempts
+- Irrelevant requests
+
+ensuring reliable and secure interactions.
+
+---
+
+## 🏗️ System Architecture
+
+![Architecture](assets/images/architecture.png)
+
+The architecture illustrates the complete workflow:
+
+```
+User Query
+      │
+      ▼
+Intent Detection
+      │
+      ▼
+Mobile Dataset Retrieval
+      │
+      ▼
+Gemini AI Response Generation
+      │
+      ▼
+Streamlit Chat Interface
+```
+
+---
+
+## 🎥 Application Demo
+
+![Demo](assets/images/demo.gif)
+
+The demo showcases the complete shopping experience, from asking queries to receiving AI-powered recommendations and product comparisons.

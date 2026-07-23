@@ -6,7 +6,7 @@ The following screenshots demonstrate the key features and workflow of the AI Sh
 
 ## 🏠 Home Page
 
-![Home](assets/Screenshot 2025-11-03 081038.png)
+![Home](Screenshot 2025-11-03 081038.png)
 
 The landing page provides a clean and interactive Streamlit interface where users can start conversations with the AI shopping assistant.
 
@@ -14,7 +14,7 @@ The landing page provides a clean and interactive Streamlit interface where user
 
 ## 💬 AI Shopping Assistant
 
-![Chat Interface](assets/Screenshot 2025-11-03 081038.png)
+![Chat Interface](Screenshot 2025-11-03 081038.png)
 
 Users can ask natural language questions such as:
 - Best phone under ₹30,000

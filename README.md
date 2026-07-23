@@ -6,7 +6,7 @@ The following screenshots demonstrate the key features and workflow of the AI Sh
 
 ## 🏠 Home Page
 
-![Home](Screenshot 2025-11-03 081038.png)
+![Home](assets/Screenshot 2025-11-03 081038.png)
 
 The landing page provides a clean and interactive Streamlit interface where users can start conversations with the AI shopping assistant.
 
@@ -14,7 +14,7 @@ The landing page provides a clean and interactive Streamlit interface where user
 
 ## 💬 AI Shopping Assistant
 
-![Chat Interface](assets/images/chat.png)
+![Chat Interface](assets/Screenshot 2025-11-03 081038.png)
 
 Users can ask natural language questions such as:
 - Best phone under ₹30,000
@@ -27,7 +27,6 @@ The AI understands the intent and provides personalized recommendations.
 
 ## 📱 Mobile Recommendations
 
-![Recommendations](assets/images/recommendations.png)
 
 The assistant displays relevant smartphones based on:
 - Budget
@@ -41,7 +40,6 @@ The assistant displays relevant smartphones based on:
 
 ## ⚖️ Product Comparison
 
-![Comparison](assets/images/comparison.png)
 
 Compare multiple smartphones side-by-side with detailed specifications including:
 - Processor
@@ -70,7 +68,6 @@ ensuring reliable and secure interactions.
 
 ## 🏗️ System Architecture
 
-![Architecture](assets/images/architecture.png)
 
 The architecture illustrates the complete workflow:
 
